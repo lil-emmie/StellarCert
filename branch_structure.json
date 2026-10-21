@@ -1,0 +1,24 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-135-14-uses-of-the-deprecated-env-events-publish",
+    "fix/issue-136-29-uses-of-the-deprecated-env-register-contract",
+    "main",
+    "origin",
+    "security/issue-134-authcontext-keeps-the-access-token-in-memory"
+  ],
+  "parent": {
+    "fix/issue-135-14-uses-of-the-deprecated-env-events-publish": "main",
+    "fix/issue-136-29-uses-of-the-deprecated-env-register-contract": "main",
+    "main": null,
+    "origin": "main",
+    "security/issue-134-authcontext-keeps-the-access-token-in-memory": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-135-14-uses-of-the-deprecated-env-events-publish",
+    "fix/issue-136-29-uses-of-the-deprecated-env-register-contract",
+    "origin",
+    "security/issue-134-authcontext-keeps-the-access-token-in-memory"
+  ]
+}
